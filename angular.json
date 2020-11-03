@@ -122,8 +122,13 @@
               "devServerTarget": "in-n-out-books:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "in-n-out-books"
 }
